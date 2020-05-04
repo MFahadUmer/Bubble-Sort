@@ -35,7 +35,6 @@ def bubble_sort_by(sorted_array)
                 end
             end
         end
-        ruby bubble_sort.rb
     end
     p sorted_array
 end
