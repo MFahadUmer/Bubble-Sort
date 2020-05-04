@@ -15,19 +15,19 @@ A method was created to accept an array of items in which each element is compar
 
 ## Author
 
-ðŸ‘¤ **Muhammad Fahad Umer** 
+**Muhammad Fahad Umer** 
 * Github: [@githubhandle](https://github.com/MFahadUmer)
 * Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 * Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
 * Email: [Email]
 
-ðŸ‘¤ **Adewale kamilu A**  
+**Adewale kamilu A**  
 * Github: [@githubhandle](https://github.com/adewaleK)
 * Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 * Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
 * Email: [Email](devkamilnaija@gmail.com)
 
-## ðŸ¤ Contributing
+## Contributing
 
 Contributions, issues and feature requests are welcome!
 Feel free to check the [issues page](issues/).
