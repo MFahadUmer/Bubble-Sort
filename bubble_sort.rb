@@ -2,8 +2,8 @@ def bubble_sort(sorted_array)
   check = true
   while check
     counter = 0
-      sorted_array.each_with_index do |elements, i|
-        if i <= sorted_array.length-2
+      sorted_array.each_with_index do |_elements, i|
+        if i <= sorted_array.length - 2
           if sorted_array[i] > sorted_array[i + 1]
             sorted_variable = sorted_array[i]
             sorted_array[i] = sorted_array[i + 1]
@@ -22,8 +22,8 @@ def bubble_sort_by(sorted_array)
   check = true
   while check
     counter = 0
-    sorted_array.each_with_index do |elements, i|
-      if i <= sorted_array.length-2
+    sorted_array.each_with_index do |_elements, i|
+      if i <= sorted_array.length - 2
         if (sorted_array[i].length <=> sorted_array[i + 1].length) == 1
           temp = sorted_array[i]
           sorted_array[i] = sorted_array[i + 1]
