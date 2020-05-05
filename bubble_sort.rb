@@ -38,7 +38,7 @@ def bubble_sort_by(sorted_array)
   p sorted_array
 end
 
-bubble_sort_by(['hello', 'hi', 'baba', 'hey', 'hi'])
+bubble_sort_by(['hello', 'hi', 'baby', 'hey', 'hi'])
 bubble_sort([4, 3, 78, 2, 0, 2])
 bubble_sort([6, 5, 3, 1, 8, 7, 2, 4])
 bubble_sort([7, 2, 8, 0, 4, 1, 3])
