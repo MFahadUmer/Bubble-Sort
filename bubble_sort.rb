@@ -2,14 +2,16 @@ def bubble_sort(sorted_array)
   check = true
   while check
     counter = 0
-      for i in (0...sorted_array.length - 1)
-        if sorted_array[i] > sorted_array[i + 1]
-          sorted_variable = sorted_array[i]
-          sorted_array[i] = sorted_array[i + 1]
-          sorted_array[i + 1] = sorted_variable
-          counter += 1
-        elsif counter.zero? && i == sorted_array.length - 2
-          check = false
+      sorted_array.each_with_index do |elements , i|
+        if (i <= sorted_array.length-2)
+          if sorted_array[i] > sorted_array[i + 1]
+            sorted_variable = sorted_array[i]
+            sorted_array[i] = sorted_array[i + 1]
+            sorted_array[i + 1] = sorted_variable
+            counter += 1
+          elsif counter.zero? && i == sorted_array.length - 2
+            check = false
+          end
         end
       end
   end
