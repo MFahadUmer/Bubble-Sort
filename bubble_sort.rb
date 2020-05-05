@@ -1,15 +1,15 @@
 def bubble_sort(sorted_array)
-  check =true
+  check = true
   while check
-    counter=0
-      for i in (0...sorted_array.length-1)
-        if sorted_array[i] > sorted_array[i+1]
+    counter = 0
+      for i in (0...sorted_array.length - 1)
+        if sorted_array[i] > sorted_array[i + 1]
           sorted_variable = sorted_array[i]
-          sorted_array[i] = sorted_array[i+1]
-          sorted_array[i+1] = sorted_variable
+          sorted_array[i] = sorted_array[i + 1]
+          sorted_array[i + 1] = sorted_variable
           counter += 1
         else
-          if counter == 0 && i == sorted_array.length-2
+          if counter == 0 && i == sorted_array.length - 2
             check = false
           end
         end
@@ -19,14 +19,14 @@ def bubble_sort(sorted_array)
 end
 
 def bubble_sort_by(sorted_array)
-  check =true
+  check = true
   while check
-    counter=0
-    for i in (0...sorted_array.length-1)
-      if sorted_array[i].length > sorted_array[i+1].length
+    counter = 0
+    for i in (0...sorted_array.length - 1 )
+      if sorted_array[i].length > sorted_array[i + 1].length
         sorted_variable = sorted_array[i]
-        sorted_array[i] = sorted_array[i+1]
-        sorted_array[i+1] = sorted_variable
+        sorted_array[i] = sorted_array[i + 1]
+        sorted_array[i + 1] = sorted_variable
         counter += 1
      else
        if counter == 0 && i == sorted_array.length-2
