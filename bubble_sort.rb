@@ -8,8 +8,8 @@ def bubble_sort(sorted_array)
           sorted_array[i] = sorted_array[i + 1]
           sorted_array[i + 1] = sorted_variable
           counter += 1
-        elsif counter == 0 && i == sorted_array.length - 2
-            check = false
+        elsif counter.zero? && i == sorted_array.length - 2
+          check = false
         end
       end
   end
