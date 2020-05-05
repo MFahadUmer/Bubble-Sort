@@ -23,8 +23,8 @@ def bubble_sort_by(sorted_array)
   while check
     check = false
     (0...sorted_array.length - 1).each do |i|
-
       next unless yield(sorted_array[i], sorted_array[i + 1]).positive?
+
       sorted_array[i], sorted_array[i + 1] = sorted_array[i + 1], sorted_array[i]
       check = true
     end
