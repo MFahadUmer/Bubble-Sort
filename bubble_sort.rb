@@ -5,9 +5,7 @@ def bubble_sort(sorted_array)
     sorted_array.each_with_index do |_elements, i|
       if i <= sorted_array.length - 2
         if sorted_array[i] > sorted_array[i + 1]
-          sorted_variable = sorted_array[i]
-          sorted_array[i] = sorted_array[i + 1]
-          sorted_array[i + 1] = sorted_variable
+          sorted_array[i], sorted_array[i + 1] = sorted_array[i + 1], sorted_array[i]
           counter += 1
         elsif counter.zero? && i == sorted_array.length - 2
           check = false

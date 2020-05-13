@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This project involves creating methods to sort a group of items in an array by using the bubble sort techniques. A method was created to sort integers and another one to sort strings based on their lengths.
+This project involves creating methods to sort a group of items in an array by using the bubble sort techniques. A method was created to sort integers and another one to sort strings when block is given.
 
 ## How it was Implemented
 
