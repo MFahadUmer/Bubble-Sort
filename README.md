@@ -13,15 +13,15 @@ A method was created to accept an array of items in which each element is compar
 * RUBY
 * VSCode
 
-## Author
+## Authors
 
-**Muhammad Fahad Umer** 
-* Github: [@githubhandle](https://github.com/MFahadUmer)
-* Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-* Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-* Email: [Email]
+👤 **Muhammad Fahad Umer**
 
-**Adewale kamilu A**  
+- Github: [@MFahadUmer](https://github.com/MFahadUmer)
+- Twitter: [@engfahadumer](https://twitter.com/engfahadumer)
+- Linkedin: [linkedin](https://www.linkedin.com/in/engineer-muhammad-fahad-e-umer-08813055/)
+
+👤 **Adewale kamilu A**  
 * Github: [@githubhandle](https://github.com/adewaleK)
 * Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 * Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
